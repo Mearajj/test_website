@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Amita:wght@400;700&family=Arapey:ital@0;1&family=Jomhuria&family=Konkhmer+Sleokchher&family=Montserrat+Subrayada:wght@400;700&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+}
+.background{
+    /* Rectangle 238 */
+
+position: absolute;
+width: 2048px;
+height: 240px;
+background: #3FA8E5;
+}
+.project-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle{
+    height: 200px;
+    width: 200px;
+    margin-left: 5vw;
+    display: inline-block;
+    margin: -60px;
+  }
+  .name{
+    color: white;
+    font-family: "Montserrat Subrayada", serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 40px;
+       /* margin: 20px 10px 10px 150px; */
+  }
+  .project-container {
+    margin-top: 7vh;
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+ .project{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+.name1{
+    color: white;
+    font-family: "Montserrat Subrayada", serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 10px;
+}
+
+.row{
+    height: 50px;
+    width: 50px;
+    margin-top: 100vh;
+    margin-left: -50vw;
+    display: inline-block;
+    margin: -60px;
+}
+  
