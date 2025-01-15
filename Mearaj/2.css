@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0px;
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -27,7 +30,6 @@ nav{
     width: 3180px;
     height: 780px;
     margin-top: -2vh;
-    /* display: inline-flexbox; */
 }
 .text{
 margin-left: 10vw;
@@ -59,7 +61,7 @@ margin-left: 10vw;
 font-family: "Montserrat", serif;
 font-optical-sizing: auto;
 font-weight: 400;
-font-style: normal;
+font-style: italic;
 font-size: 30px;
 color: black;
 margin-top: 3vh;
@@ -83,16 +85,101 @@ margin-left: 2.4vw;
 margin-top: 1vh;
 }
 .circle{
-   /* Img */
-
 position: absolute;
 width: 900.58px;
 height: 773px;
 left: 662px;
-top: 90px;
-/* size: 100px; */
+top: 80px;
 border-radius: 0px 0px 0px 1200px;
-background: #D9D9D9;
+background: #BEBEBE;
 margin-left:23.5vw;
 
 }
+.box3{
+    background-color: rgb(255, 255, 255);
+  width: 3180px;
+    height: 780px;
+}
+.text3{
+font-family: "Montserrat", serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: italic;
+font-size: 20px;
+}
+ .box4{
+ background-color: rgb(255, 255, 255);
+ height: 300px;
+ width: 800px;
+ margin-left: 30vw;
+ margin-top: 15vh;
+ display: inline-block;
+ }
+ .note{
+font-family: "Montserrat", serif;
+font-optical-sizing: auto;
+font-weight: 900;
+font-style: italic; 
+margin-top: -43vh;
+margin-left: 30vw;
+ }
+ .call{
+ color: rgb(63, 61, 61);
+ font-family: "Montserrat", serif;
+ font-optical-sizing: auto;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 30px;
+ margin-top: 7vh;
+ margin-left: 41vw;  
+ }
+ .box5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 250px;
+    margin-top: -20vh;
+    margin-left: -7vw;
+ }
+ .item1{
+    background-color: rgb(194, 194, 194, 0.345);
+    height: 220px;
+    width: 450px;
+    margin: 70px; 
+    justify-content: space-between;
+ }
+ .title1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-top: -74vh;
+ }
+ .title2{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 260px;
+ }
+ .option2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -1vw;
+    margin-top: -60vh;
+ }
+ .text4{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin: 70px;
+   text-align: center;
+ }
